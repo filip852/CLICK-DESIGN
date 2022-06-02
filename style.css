@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0px 5px;
+	}
+
+  body{font-family: 'Roboto', sans-serif;
+    
+  }
+
+#home{margin-left: 10%}
+
+.fl{float: right;
+padding-right: 50px;}
+
+#navbar {
+ height: 10vh;
+  background-color:white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+	background-color: white;
+}
+
+
+#navbar a:hover{opacity: 0.5;
+background-color: white;}
+
+.sticky{  overflow: hidden;
+  background-color:white;
+  position: fixed;
+  top: 0;
+width: 100%}
+
+
+
+.i1{width: 50%;
+margin-top: 10%;
+	border-radius: 10px;
+	
+}
+
+.tx{width: 40%;
+float:right;
+	margin-top: 29%;
+	margin-right: 5%;
+}
+
+#portfolio{width: 80%;
+display: flex;
+	justify-content:center;
+	margin-left: 10%;
+}
+
+section{margin-bottom: 50px;}
+
+.col{
+	width: 33%;
+	overflow: hidden;
+	position: relative;
+	padding: 0 50px;
+}
+
+
+.im{width:100%;
+	border-radius: 30px;
+	
+
+}
+
+
+#about{width: 80%;
+justify-content:center;
+	margin-left: 10%;
+
+height: 30vh;
+margin-top: 150px;}
+
+.ab{text-align: center;
+padding-bottom: 20px;}
+
+.prg{width: 70%;
+	margin-left:15%;
+text-align: justify;
+justify-content:center;
+position: relative;}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#1D24AF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.container {
+	width: 80%	;
+	margin-left: 10%;
+  border-radius: 5px;
+  background-color:#C0BCDD;
+  padding: 20px;
+}
+
+
+.cont{text-align: center;
+padding-bottom: 20px;
+}
+
+
+.but{float: right;
+	height: 5%;
+
+	padding-bottom: 50px;
+ }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px ;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+input[type=submit]:hover {
+    opacity: 0.5;
+}
+
+
+
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width:800px){
+	.i1{margin-top: 20%;}
+	.tx{font-size: 14px;
+	text-align: justify;
+	margin-top: 20%;}
+	
+	
+	
+}
+	
