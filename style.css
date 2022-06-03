@@ -183,13 +183,19 @@ input[type=submit]:hover {
 }
 
 
+
 @media (max-width:800px){
-	.i1{margin-top: 20%;}
-	.tx{font-size: 14px;
+	.i1{width: 150px;
+		padding-top: 20%;
+	}
+	.tx{
 	text-align: justify;
 	margin-top: 20%;}
-	
-	
-	
+	.logo{width: 50px;}
+	body{font-size: 10px;}
+	#navbar a{font-size: 10px;}
+	#home{padding-top: 5%;}
+	#about{margin-top: 30px;}
+	.but{margin-top: 20px;}
 }
 	
