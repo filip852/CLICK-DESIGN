@@ -195,7 +195,10 @@ input[type=submit]:hover {
 	body{font-size: 10px;}
 	#navbar a{font-size: 10px;}
 	#home{padding-top: 5%;}
-	#about{margin-top: 30px;}
+		#about{margin-top: 30px;
+	height: auto;}
+	
 	.but{margin-top: 20px;}
+	.container{margin-left: 5%;}
 }
 	
