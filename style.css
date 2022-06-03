@@ -183,7 +183,6 @@ input[type=submit]:hover {
 }
 
 
-
 @media (max-width:800px){
 	.i1{width: 150px;
 		padding-top: 20%;
@@ -197,7 +196,9 @@ input[type=submit]:hover {
 	#home{padding-top: 5%;}
 	#about{margin-top: 30px;
 	height: auto;}
+	
 	.but{margin-top: 20px;}
 	.container{margin-left: 5%;}
+	
 }
 	
